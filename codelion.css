@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+
+* {
+    font-family: Song Myung;
+}
+
+
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: #282828;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    padding: 20px;
+    font-size: 12px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.main-box {
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #121212;
+    width: 610px;
+    box-shadow: 6px 6px 10px 1px  rgba(0, 0, 0, 0.3);
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me {
+    font-size: 10px;
+}
+
+.title-text {
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+
+.year-text {
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.title-box {
+    text-align: right;
+}
